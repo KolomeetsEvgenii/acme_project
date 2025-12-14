@@ -10,7 +10,7 @@ ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
-    'cinema.apps.CinemaConfig'
+    'core.apps.CoreConfig',
     'homepage.apps.HomepageConfig',
     'ice_cream.apps.IceCreamConfig',
     'about.apps.AboutConfig',
